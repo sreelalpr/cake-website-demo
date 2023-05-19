@@ -1,0 +1,6 @@
+*.swp
+!needed.swp
+hello.c
+image/cup-cake.psd
+doc/foo/hello.txt
+doc/**/foo/hello.txt
