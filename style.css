@@ -2,3 +2,12 @@ body {
     background-image: url('./images/cake.jpg');
     background-size: cover;
 }
+
+#hover-effect {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.hovered {
+    color: red;
+}
