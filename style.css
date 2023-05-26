@@ -1,13 +1,58 @@
 body {
-    background-image: url('./images/cake.jpg');
-    background-size: cover;
-}
-
-#hover-effect {
-    transition: color 0.3s ease;
-    cursor: pointer;
-}
-
-.hovered {
-    color: blue;
-}
+        background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        color: #333;
+        margin-top: 40px;
+    }
+    
+    p {
+        font-size: 18px;
+        color: #666;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .cake-image {
+        display: block;
+        margin: 40px auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff6363;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+        background-color: #ff4646;
+    }
+    
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 28px;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+    }
